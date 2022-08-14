@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-
 <html>
 <link rel="stylesheet" href="dragAndDropStyle.css">
+<link rel="stylesheet" href="main.css">
+
 <title>Yoav's Website</title>
+
+
+<!-- Toolbar: -->
 <div class="ToolBar">
     <a class="active" href="homePage.html">Home</a>
     <a href="orderNow.html">Order Now</a>
     <a href="contactUs.html">Contact Us</a>
     <a href="aboutUs.html">About Us</a>
-</div>
-<br>
+    <a href="Cart.html">Cart</a>
+  </div>
+  <br />
 
 <body>
 <h1>Laser Engraver Pictures:</h1>  
@@ -18,14 +23,14 @@
 <!-- Products Pictuers -->
     <div class="imgContainer">
         <div class="image">
-            <img class="imageSecondLayer" src="C:\Users\yoavkivity\Desktop\LaserEngraver\Photos\image_1.jpg" alt="image_1">
+            <img class="imageSecondLayer" src="../LaserEngraver\Photos\image_1.jpg" alt="image_1">
             <div class="imageOverlay imageOverlay--blur">
                 <div class="imageTitle">となりのトトロ</div>
                 <p class="imageDescription">My Neighbor Totoro</p>    
             </div>
         </div>
         <div class="image">
-            <img class="imageSecondLayer" src="C:\Users\yoavkivity\Desktop\LaserEngraver\Photos\image_2.jpg" alt="image_2">
+            <img class="imageSecondLayer" src="../LaserEngraver\Photos\image_2.jpg" alt="image_2">
             <div class="imageOverlay imageOverlay--blur">
                 <div class="imageTitle">猿飛アスマ</div>
                 <p class="imageDescription">Asuma Sensei</p>
@@ -33,7 +38,7 @@
             
         </div>
         <div class="image">
-            <img class="imageSecondLayer" src="C:\Users\yoavkivity\Desktop\LaserEngraver\Photos\image_3.jpg" alt="image_3">
+            <img class="imageSecondLayer" src="../LaserEngraver\Photos\image_3.jpg" alt="image_3">
             <div class="imageOverlay imageOverlay--blur">
                 <div class="imageTitle">エレンイェーガー</div>
                 <p class="imageDescription">Eren Yegar</p>
@@ -41,7 +46,7 @@
         </div>
 
         <div class="image">
-            <img class="imageSecondLayer" src="C:\Users\yoavkivity\Desktop\LaserEngraver\Photos\image_4.jpg" alt="image_4">
+            <img class="imageSecondLayer" src="../LaserEngraver\Photos\image_4.jpg" alt="image_4">
             <div class="imageOverlay imageOverlay--blur">
                 <div class="imageTitle">カカロット</div>
                 <p class="imageDescription">Goku Kakaroto</p>
@@ -49,7 +54,7 @@
         </div>
 
         <div class="image">
-            <img class="imageSecondLayer" src="C:\Users\yoavkivity\Desktop\LaserEngraver\Photos\image_5.jpg" alt="image_3">
+            <img class="imageSecondLayer" src="../LaserEngraver\Photos\image_5.jpg" alt="image_3">
             <div class="imageOverlay imageOverlay--blur">
                 <div class="imageTitle">うちは イタチ</div>
                 <p class="imageDescription">Uchiha Itachi</p>
@@ -58,6 +63,24 @@
     </div>
 
 
+    <!-- Cart: -->
+
+<section>
+    <h2>Your Cart</h2>
+    <div>
+      <span>ITEM</span>
+      <span>PRICE</span>
+      <span>QUANTITY</span>
+    </div>
+    
+    <div>
+      <img src="" alt="" width="100" height="100">
+      <span>Anime Name</span>
+      <span>19.99$</span>
+      <input type="number">
+      <button role="button" class="btn add-to-cart-btn">REMOVE</button>
+    </div>
+    </section>
     
 
 

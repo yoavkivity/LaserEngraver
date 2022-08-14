@@ -1,70 +1,30 @@
 <!DOCTYPE html>
 
 <html>
-<link rel="stylesheet" href="dragAndDropStyle.css">
-<title> Drag, Drop & Browse</title>
-<link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
-    crossorigin="anonymous" 
-    referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="dragAndDropStyle.css">
+    <link rel="stylesheet" href="main.css">
 
+    <title>Order Now</title>
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer"
+        />
 
-    <img class="minimize" src="C:\Users\yoavkivity\Desktop\LaserEngraver\sitePhotos\deliveryTruck.png" alt="deliveryTruck.png">
-
-
-<div class="inline">
-    <div class="ToolBar">
-        <a href="homePage.html">Home</a>
-        <a class="active" href="orderNow.html">Order Now</a>
-        <a href="contactUs.html">Contact Us</a>
-        <a href="aboutUs.html">About Us</a>
-    </div>
-
-    <body>
-        <br>
-        <table class="tableStyle">
-            <tr>
-                <th>First & last Name:</th>
-                <th><input type="text"></th>  
-            </tr>
-            <tr>
-                <th>Phone Number:</th>
-                <th><input type="text"></th>  
-
-            </tr>
-            <tr>
-                <th>Address:</th>
-                <th><input type="text"></th>  
-            </tr>
-            <tr>
-                <th>Email:</th>
-                <th><input type="text"></th>  
-            </tr>
-            <tr>
-                <th><label for="sizes">Picture:</label></th>
-                <th>
-                    <select class="optionStyle" id="sizes" name="sizes">
-                        <option value="4:3">4:3</option>
-                        <option value="16:9">16:9</option>
-                        <option value="21:9">21:9</option>
-                        <option value="Custom">Custom</option>
-                    </select>
-                </th>
-            </tr>
-            <tr>
-                <th>Lacquer:</th>
-                <th>        
-                    <select class="optionStyle" id="sizes" name="sizes">
-                        <option value="Yes">Yes</option>
-                        <option value="No">No</option>
-                    </select>
-                </th>
-            </tr>
-        </table>
-
-        <h1>Order Details:</h1>
+    <!-- Toolbar: -->
+        <div class="ToolBar">
+            <a href="homePage.html">Home</a>
+            <a class="active" href="orderNow.html">Order Now</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="Cart.html">Cart</a>
+        </div>
+    <br>
+    
+    <h1 class="tableTitle">Order Details:</h1>
+    <!-- Drag and Drop: -->
+    <div class="boxStyle">
         <div class="container">
             <h3>Upload your File:</h3>
             <div class="drag-area">
@@ -73,11 +33,76 @@
                 </div>
                 <span class="header"> Drag & Drop</span>
                 <span class="header">or <span class="button">browse</span></span>
+                <input type="file" hidden>
                 <span class="support">Support: JPEG, JPG, PNG</span>
-
             </div>
         </div>
-</div>
-        <script src="dragAndDrop.js"></script>
-</body>
+
+    <!-- Order Details Table-->
+        <div>
+            <table class="tableStyle">
+                <tr>
+                    <th>First & last Name:</th>
+                    <th><input type="text"></th>  
+                </tr>
+                <tr>
+                    <th>Phone Number:</th>
+                    <th><input type="text"></th>  
+
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <th><input type="text"></th>  
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <th><input type="text"></th>  
+                </tr>
+                <tr>
+                    <th><label for="sizes">Picture:</label></th>
+                    <th>
+                        <select class="optionStyle" id="sizes" name="sizes">
+                            <option value="4:3">4:3</option>
+                            <option value="16:9">16:9</option>
+                            <option value="21:9">21:9</option>
+                            <option value="Custom">Custom</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Lacquer:</th>
+                    <th>        
+                        <select class="optionStyle" id="sizes" name="sizes">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </th>
+                </tr>
+            </table>
+        </div>
+
+
+    <!-- Icons: -->
+
+    <div class="cartContainer">
+        <p>Add to Cart</p>
+    </div>
+
+    <div class="iconBox">
+        <div>
+            <img class = "minimize" src="../LaserEngraver\sitePhotos\deliveryTruck.png" alt="deliveryTruck.png">
+        </div>
+        <div>
+            <img class = "minimize" src="../LaserEngraver\sitePhotos\priceTag.png" alt="priceTag.png">
+        
+        </div>
+    </div>
+    <script src="dragAndDrop.js"></script>
+
+
+
+
+
+
+    
 </html>

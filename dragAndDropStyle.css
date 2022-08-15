@@ -3,6 +3,11 @@
 
 /* Drag and Drop */
 .boxStyle {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     position: relative;
     flex-direction: row; 
     display: flex;

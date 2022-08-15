@@ -11,9 +11,8 @@ body {
     display: flex;
     min-width: 100vh;
     flex-direction: column;
-    background: #c7d8f8 ;
-    background: -webkit-linear-gradient(to right, #cfedf3, #e0eafc);
-    background: linear-gradient(to right, #cfedf3, #e0eafc)
+     background: #e9effb; /*eff1f1  c7d8f8*/
+ 
 /*fefefe  https://www.bananashops.co.il/232494?gclid=Cj0KCQjwuuKXBhCRARIsAC-gM0iG0611AJRG21vWOsy5NsJ9XMfqYXw2966ar45U-gsVJaaXhZ0xx5kaAtVzEALw_wcB*/
 
 }
@@ -52,7 +51,7 @@ th {
     text-align: left;
     font-size: 20px;
 }
-input {
+th input {
     width: 100%  ;
     font-size: 15px;
 }
@@ -69,7 +68,7 @@ select {
     top: 15px;
     left: 15px;
     right: 15px;
-    background-color: #34495e;
+    background-color: #34495e; /*232222*/
     overflow: hidden;
     align-items: center;
 }
@@ -99,6 +98,7 @@ select {
     width: 220px;
     height: 220px;
     margin: 10px;
+    border: 1px solid #34373a ;
 }
 .imageOverlay {
     position: absolute;
@@ -163,23 +163,12 @@ select {
     font-size: 20px;
     border-collapse: separate;
     border-spacing: 12px;
-    border: 1px solid gray;
     border-radius: 20px;
     width: 90%;
 }
 
-.tableDiv {
-    display: flex;
-    margin-top: 3%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    width: 40%;
-    margin-left: 7%;
-}
-
 .detailsTitle { 
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
 }
 .tableTitle {
@@ -264,14 +253,29 @@ select {
 
 
 /*Cart Details: */
-
 .centerColumns {
     text-align: center;
     justify-content: center;
+    color:black;
+    font-size: 20px;
+    border-collapse: separate;
+    border-spacing: 12px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 45%;
+    margin: 10px;
+    height: 100%;
 }
 .columns {
     margin-left: 50px;
-    padding: 50px;
     align-items: center;
     justify-content: center;
+}
+.minimizeImage {
+    position: relative;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #34373a ;
 }

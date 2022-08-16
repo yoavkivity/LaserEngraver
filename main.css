@@ -98,8 +98,61 @@ select {
     height: 10%;
     overflow: hidden;
     position: fixed;
-    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_icon_bar_h*/
+}  
+.moveRight{
+    margin-right: 40px;
 }
+.bottomBar a {
+    float: right;
+    text-align: center;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    transition: all 0.3s ease;
+    color: white;
+} 
+.bottomBarWhatapp a:hover {
+    background-color: #e9effb;
+    color: #25D366
+    ;
+}
+.bottomBarFacebook a:hover {
+    background-color: #e9effb;
+    color: #4267B2
+    ;
+}
+.bottomBarLinkedin a:hover {
+    background-color: #e9effb;
+    color: #0072b1;
+}
+
+.bottomBarGithub a:hover {
+    background-color: #e9effb;
+    color: #171515;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*image */

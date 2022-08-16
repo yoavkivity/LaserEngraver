@@ -59,8 +59,7 @@ select {
     font-size: medium;
 }
 
-/* Toolbar*/
-
+/* Toolbar - TOP*/
 .ToolBar {
     top: 0;
     position: absolute;
@@ -91,6 +90,7 @@ select {
     color: white;
 }
 
+/* Toolbar - BOTTOM*/
 .bottomBar {
     background-color: #2a3239;
     bottom: 0;
@@ -99,13 +99,11 @@ select {
     overflow: hidden;
     position: fixed;
 }  
-.moveRight{
-    margin-right: 40px;
-}
 .bottomBar a {
     float: right;
     text-align: center;
-    width: 10%;
+    bottom: 5px;
+    width: 6%;
     justify-content: center;
     align-items: center;
     padding: 14px;
@@ -129,10 +127,29 @@ select {
     background-color: #e9effb;
     color: #0072b1;
 }
-
 .bottomBarGithub a:hover {
     background-color: #e9effb;
     color: #171515;
+}
+
+
+/*image */
+.favorite {
+    position: fixed;
+    display: block;
+    justify-content:flex-end;
+    bottom: 8px;
+    text-align: center;
+    font-size:0.8cm;
+    opacity: 0.7;
+}
+.favorite:hover {
+    opacity: 1;
+    font-size: 0.9cm;
+    transition: 0.25s;
+}
+.favorite:active{
+    color: rgb(189, 97, 97);
 }
 
 
@@ -143,19 +160,6 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*image */
 .image {
     position: relative;
     display: inline-flex;

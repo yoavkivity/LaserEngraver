@@ -11,18 +11,25 @@
 
 <!-- Toolbar: -->
 <div class="ToolBar">
-    <a href="homePage.html">Home</a>
-    <a href="orderNow.html">Order Now</a>
-    <a href="contactUs.html">Contact Us</a>
-    <a href="aboutUs.html">About Us</a>
-    <a class="active" href="Cart.html">Cart</a>
+    <div>
+        <a href="homePage.html">Home</a>
+        <a href="orderNow.html">Order Now</a>
+        <a href="aboutUs.html">About Us</a>
+    </div>
+    <div class="moveRight">
+        <a class="active" href="Cart.html"><i class="fa fa-shopping-cart cartIcon"></i></a>
+        <a href="contactUs.html"><i class="fa fa-phone phoneIcon"></i></a>
+    </div>
 </div>
+
+
 
 
 <!-- Cart: -->
 <h1>Your Cart</h1>
 
-<section>
+
+<div class="cartDiv">
     <div class="centerColumns">
 
         <div>
@@ -106,14 +113,17 @@
                     </select>
                 </th>
             </tr>
+            <th></th>
             <tr>
-                <th colspan="2"class= "centerButton">
+                <th  colspan="2"class= "centerButton">
                     <button role="button" class="btn submitButton ">Submit</button>
                 </th>
             </tr>
         </table>
     </div>
-</section>
+</div>
+
+
 <div class="bottomBar">
     <span><a><i></i></a></span>
     <span class="bottomBarGithub"><a  target=”_blank” 

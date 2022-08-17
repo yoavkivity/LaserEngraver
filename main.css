@@ -43,7 +43,7 @@ td {
     align-items: left;
     margin-left: 20px;
 }
-th {
+tr {
     color:black;
     text-align: left;
     font-size: 20px;
@@ -260,7 +260,6 @@ body p {
 }
 
 
-
 /* Buttons: */
 .btn { 
     text-align: center;
@@ -345,6 +344,7 @@ body p {
     border-radius: 20px;
     margin: 10px;
     height: 500px;
+    width: 47%;
 }
 .columns {
     margin-left: 50px;

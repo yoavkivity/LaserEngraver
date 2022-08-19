@@ -274,12 +274,12 @@ body p {
     margin-right: 40px;
 }
 .submitButton {
-    border: 1px solid gray;
     padding: 8px;
     margin-left: 20px;
     margin-right: 40px;
     font-size: 18px;
-    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
     width: 5cm;
 
 }
@@ -374,4 +374,7 @@ body p {
     display: flex;
     align-items: center;
     justify-content: left;
+}
+.videoDiv {
+    margin-right: 20px;
 }
